@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.ygjy.hcy.baselib.mvp.BasePresenter;
+
 import com.ygjy.hcy.baselib.mvp.IPresenter;
 
 import butterknife.ButterKnife;
