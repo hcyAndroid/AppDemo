@@ -5,6 +5,7 @@ import android.app.Application;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
 import com.orhanobut.logger.PrettyFormatStrategy;
+import com.ygjy.hcy.baselib.constant.BaseConstant;
 
 /**
  * @创建人：hcy
@@ -22,7 +23,7 @@ public class BaseApplication extends Application {
     private void initLogger() {
         //可选每个日志的全局标记。 默认PRETTY_LOGGER
         //https://github.com/orhanobut/logger
-        PrettyFormatStrategy strategy = PrettyFormatStrategy.newBuilder().tag("hcy2019").build();
+        PrettyFormatStrategy strategy = PrettyFormatStrategy.newBuilder().tag(BaseConstant.LOGGER_GLOBAL_TAG).build();
         Logger.addLogAdapter(new AndroidLogAdapter(strategy));
     }
 }
