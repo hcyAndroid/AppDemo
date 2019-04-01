@@ -14,6 +14,7 @@ ext {
             constraintLayout: 'com.android.support.constraint:constraint-layout:1.1.3',
             butterknife :'com.jakewharton:butterknife:8.6.0',
             butterknife_compiler: 'com.jakewharton:butterknife-compiler:8.6.0',
-            butterknife_gradle_plugin :'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+            butterknife_gradle_plugin :'com.jakewharton:butterknife-gradle-plugin:8.4.0',
+            logger: 'com.orhanobut:logger:2.2.0'
     ]
 }
