@@ -31,7 +31,8 @@ dependencies {
     //logger
     api rootProject.ext.dependencies.logger
     //dagger2
-
+//    api rootProject.ext.dependencies.dagger2
+//    annotationProcessor rootProject.ext.dependencies.dagger2_compiler
 //    compile 'com.google.dagger:dagger:2.x'
 //    annotationProcessor 'com.google.dagger:dagger-compiler:2.x'
 //    compile 'com.google.dagger:dagger-android:2.x'
